@@ -1,3 +1,174 @@
+# Starter
+*
+```
+react-native init Taximandu --package-name=com.taximandu.user
+```
+
+
+# Learning Curve 
+## ToDo's 
+  - > **Screens**
+----
+* RESPONSIVE
+* Splash
+* Onboarding
+* Welcome
+* Login/SignUp
+* Social Login
+* Home
+* ThemeScreen
+* Bottom Navbar
+* Alert
+* Snackbar
+* Side Navigatiion Drawer
+* Image Slider
+* List Data
+* Selection Of Datwa from list
+* Navigation InBetween
+* Local DataBase
+* Map Screen
+* Stack NAVIGATION
+* Courasal Slider 
+* Image view
+* Svg View
+* Shader Views
+* Custom ----
+* Lottie
+* API Request
+* Loader
+* Search BAR
+  
+
+
+# TODO Learn
+## Steps
+* > **Taken Steps**
+  ---
+
+* Folder Structure
+* Solid Principle
+* Responsive Design
+* Theme
+* Route
+* Locale
+* Deeplinking
+* Navigation
+* Storage
+
+
+
+
+
+
+Testing: Write unit tests and integration tests to ensure the reliability of your app.
+Documentation: Document your codebase thoroughly to help other developers understand your implementation.
+Performance: Optimize your app's performance by minimizing re-renders and reducing unnecessary computations.
+Accessibility: Ensure your app is accessible to all users by following accessibility best practices.
+
+
+
+# Folder Structure
+```bash
+- src/
+  - assets/
+    - images/
+    - fonts/
+    - svgs/
+  - components/
+    - Button/
+      - Button.tsx
+      - Button.styles.ts
+    - TextInput/
+      - TextInput.tsx
+      - TextInput.styles.ts
+  - screens/
+    - Home/
+      - HomeScreen.tsx
+      - HomeScreen.styles.ts
+    - Profile/
+      - ProfileScreen.tsx
+      - ProfileScreen.styles.ts
+  - navigation/
+    - MainNavigator.tsx
+  - services/
+    - AuthService.ts
+    - ApiService.ts
+  - utils/
+    - helpers.ts
+  - theme/
+    - colors.ts
+    - typography.ts
+  - localization/
+    - en.json
+    - fr.json
+
+```
+[Navigation](https://reactnavigation.org/)
+[responsive](https://www.npmjs.com/package/react-native-responsive-dimensions)
+# PAckages Used
+> yarn add @react-navigation/native
+> yarn add react-native-screens react-native-safe-area-context
+> yarn add @react-navigation/native-stack
+> yarn add react-native-responsive-dimensions
+
+
+
+```bash
+ yarn add @react-navigation/native react-native-screens react-native-safe-area-context @react-navigation/native-stack react-native-responsive-dimensions
+yarn add v1.22.22
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+
+success Saved lockfile.
+success Saved 15 new dependencies.
+info Direct dependencies
+├─ @react-navigation/native-stack@6.9.26
+├─ @react-navigation/native@6.1.17
+├─ react-native-responsive-dimensions@3.1.1
+├─ react-native-safe-area-context@4.9.0
+└─ react-native-screens@3.30.1
+info All dependencies
+├─ @react-navigation/core@6.4.16
+├─ @react-navigation/elements@1.3.30
+├─ @react-navigation/native-stack@6.9.26
+├─ @react-navigation/native@6.1.17
+├─ @react-navigation/routers@6.1.9
+├─ decode-uri-component@0.2.2
+├─ filter-obj@1.1.0
+├─ query-string@7.1.3
+├─ react-freeze@1.0.4
+├─ react-native-responsive-dimensions@3.1.1
+├─ react-native-safe-area-context@4.9.0
+├─ react-native-screens@3.30.1
+├─ split-on-first@1.1.0
+├─ strict-uri-encode@2.0.0
+```
+```bash
+ yarn install
+yarn install v1.22.22
+info No lockfile found.
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+warning react-native > @react-native/codegen > jscodeshift > @babel/plugin-proposal-class-properties@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
+warning react-native > @react-native/codegen > jscodeshift > @babel/plugin-proposal-nullish-coalescing-operator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-nullish-coalescing-operator instead.
+warning react-native > @react-native/codegen > jscodeshift > @babel/plugin-proposal-optional-chaining@7.21.0: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-chaining instead.
+warning react-native > @react-native/community-cli-plugin > @react-native/metro-babel-transformer > @react-native/babel-preset > @babel/plugin-proposal-class-properties@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
+warning react-native > @react-native/community-cli-plugin > @react-native/metro-babel-transformer > @react-native/babel-preset > @babel/plugin-proposal-nullish-coalescing-operator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-nullish-coalescing-operator instead.
+warning react-native > @react-native/community-cli-plugin > @react-native/metro-babel-transformer > @react-native/babel-preset > @babel/plugin-proposal-optional-chaining@7.21.0: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-chaining instead.
+warning react-native > @react-native/community-cli-plugin > @react-native/metro-babel-transformer > @react-native/babel-preset > @babel/plugin-proposal-numeric-separator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-numeric-separator instead.
+warning react-native > @react-native/community-cli-plugin > @react-native/metro-babel-transformer > @react-native/babel-preset > @babel/plugin-proposal-object-rest-spread@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-object-rest-spread instead.
+warning react-native > @react-native/community-cli-plugin > @react-native/metro-babel-transformer > @react-native/babel-preset > @babel/plugin-proposal-async-generator-functions@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-async-generator-functions instead.
+warning react-native > @react-native/community-cli-plugin > @react-native/metro-babel-transformer > @react-native/babel-preset > @babel/plugin-proposal-optional-catch-binding@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-catch-binding instead.
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+
+success Saved lockfile.
+```
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
