@@ -1,0 +1,1 @@
+type TToken = string |  null;

@@ -1,5 +1,5 @@
  ///// / //prettier-ignore
-enum HttpStatusCode {
+export enum HttpStatusCode {
         CONTINUE = 100,
         SWITCHING_PROTOCOLS = 101,
         PROCESSING = 102,

@@ -109,11 +109,14 @@ Accessibility: Ensure your app is accessible to all users by following accessibi
 ```
 [Navigation](https://reactnavigation.org/)
 [responsive](https://www.npmjs.com/package/react-native-responsive-dimensions)
+
 # PAckages Used
 > yarn add @react-navigation/native
 > yarn add react-native-screens react-native-safe-area-context
 > yarn add @react-navigation/native-stack
 > yarn add react-native-responsive-dimensions
+> yarn add @react-native-async-storage/async-storage
+> yarn add axios
 
 
 

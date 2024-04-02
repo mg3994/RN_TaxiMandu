@@ -10,7 +10,13 @@
     "url": "https://github.com/mg3994/RN_TaxiMandu/issues",
     "email": "manishgautammg7@yahoo.com"
   },
-  "keywords": ["com.taximandu.user", "com.taximandu.driver","Taxi","Typescript","React Native"],
+  "keywords": [
+    "com.taximandu.user",
+    "com.taximandu.driver",
+    "Taxi",
+    "Typescript",
+    "React Native"
+  ],
   "author": {
     "name": "Manish Gautam",
     "url": "https://github.com/mg3994",
@@ -18,9 +24,9 @@
   },
   "contributors": [
     {
-    "name": "Manish Gautam",
-    "url": "https://github.com/mg3994",
-    "email": "manishgautammg7@yahoo.com"
+      "name": "Manish Gautam",
+      "url": "https://github.com/mg3994",
+      "email": "manishgautammg7@yahoo.com"
     }
   ],
   "maintainers": [
@@ -28,7 +34,7 @@
       "name": "Manish Gautam",
       "url": "https://github.com/mg3994",
       "email": "manishgautammg7@yahoo.com"
-      },
+    },
     {
       "name": "Manish Gautam (Next Ambani)",
       "url": "https://github.com/Manishmg3994",
@@ -52,8 +58,10 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.23.1",
     "@react-navigation/native": "^6.1.17",
     "@react-navigation/native-stack": "^6.9.26",
+    "axios": "^1.6.8",
     "react": "18.2.0",
     "react-native": "0.73.6",
     "react-native-responsive-dimensions": "^3.1.1",
