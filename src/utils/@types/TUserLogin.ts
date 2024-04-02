@@ -7,8 +7,11 @@
  * @property {string} device_name - The device name used for login.
  */
 
+// import { TDeviceName, TEmail, TPassword } from "@user";
+declare module '@user'{
 type TUserLogin = {
     email: TEmail;
     password: TPassword;
     device_name: TDeviceName;
 };
+}

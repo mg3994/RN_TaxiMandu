@@ -8,6 +8,8 @@
  * @property {string} device_name - The device name used for registration.
  */
 
+// import { TName, TPasswordConfirmation } from "@user";
+
 /**
  * Represents a user login object.
  * @typedef {Object} TUserLogin
@@ -32,11 +34,11 @@
  * };
  */
 
-
+declare module '@user'{
 type TUserRegister = TUserLogin & {
     name:TName ,
     password_confirmation: TPasswordConfirmation,
     
 }
-
+}
 

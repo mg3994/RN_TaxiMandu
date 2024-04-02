@@ -1,5 +1,8 @@
- ///// / //prettier-ignore
-export enum HttpStatusCode {
+// Define an interface for HTTP status codes
+// type IHttpStatusCode ={
+//   [key: string]: number;
+// }
+export enum HttpStatusCode  {
         CONTINUE = 100,
         SWITCHING_PROTOCOLS = 101,
         PROCESSING = 102,

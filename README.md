@@ -283,3 +283,26 @@ To learn more about React Native, take a look at the following resources:
             "UNLICENSED"
           ]
 ```
+
+
+# ToDO's
+```
+*iOS*
+After installing the npm package, we need to install the pod.
+
+$ (cd ios && pod install)
+# --- or ---
+$ npx pod-install
+Enabling Google Maps
+If you want to enable Google Maps on iOS, obtain the Google API key and edit your AppDelegate.m(m) as follows:
+
++ #import <GoogleMaps/GoogleMaps.h>
+
+@implementation AppDelegate
+...
+
+(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
++  [GMSServices provideAPIKey:@"_YOUR_API_KEY_"]; // add this line using the api key obtained from Google Console
+...
+```
