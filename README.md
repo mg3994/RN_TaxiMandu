@@ -1,3 +1,7 @@
+# USES
+Use of Type not interface => as interface offers object map but Type can be used with Strings , Nymbers and Objects
+**Prefered Way**
+
 # Starter
 *
 ```

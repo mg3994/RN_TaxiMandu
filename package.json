@@ -1,7 +1,49 @@
 {
   "name": "com.taximandu.user",
   "version": "0.0.1",
+  "license": "MIT",
   "private": true,
+  "readme": "README.md",
+  "description": "A Taxi App Just Testing Not officially supported",
+  "homepage": "https://github.com/mg3994/RN_TaxiMandu",
+  "bugs": {
+    "url": "https://github.com/mg3994/RN_TaxiMandu/issues",
+    "email": "manishgautammg7@yahoo.com"
+  },
+  "keywords": ["com.taximandu.user", "com.taximandu.driver","Taxi","Typescript","React Native"],
+  "author": {
+    "name": "Manish Gautam",
+    "url": "https://github.com/mg3994",
+    "email": "manishgautammg7@yahoo.com"
+  },
+  "contributors": [
+    {
+    "name": "Manish Gautam",
+    "url": "https://github.com/mg3994",
+    "email": "manishgautammg7@yahoo.com"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "Manish Gautam",
+      "url": "https://github.com/mg3994",
+      "email": "manishgautammg7@yahoo.com"
+      },
+    {
+      "name": "Manish Gautam (Next Ambani)",
+      "url": "https://github.com/Manishmg3994",
+      "email": "manishgautammg7@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mg3994/RN_TaxiMandu",
+    "directory": ""
+  },
+  "funding": {
+    "url": "https://github.com/sponsors/Manishmg3994",
+    "type": "Github Sponsor"
+  },
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
