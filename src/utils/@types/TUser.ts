@@ -31,6 +31,7 @@
  *     device_name: "device"
  * };
  */
+declare module '@user'{
 type TName = string;
 type TEmail = string | null;
 type TPhone = string | null;
@@ -45,3 +46,4 @@ type TUser = {
     email:TEmail;
     // phone?:string;
 };
+}

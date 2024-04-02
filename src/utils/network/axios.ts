@@ -4,8 +4,8 @@ import { endpoints } from "./endpointmethods";
 
 const axios = axiosLib.create({
   baseURL: endpoints.baseURL,
-  headers: {
-    Accept: "application/json",
+  headers:   {
+    Accept: "application/json", //readonly
   },
 });
 axios.interceptors.request.use(async (req) => {

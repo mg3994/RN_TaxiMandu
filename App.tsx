@@ -129,6 +129,7 @@
 import {NavigationContainer} from '@react-navigation/native';
 import React from 'react';
 import type {PropsWithChildren} from 'react';
+
 import {
   SafeAreaView,
   ScrollView,
@@ -149,6 +150,7 @@ import {
 import Router from './src/navigation/Router';
 
 function App(): React.JSX.Element {
+  // LogBox.ignoreAllLogs();
   const isDarkMode = useColorScheme() === 'dark';
 
   const backgroundStyle = {
